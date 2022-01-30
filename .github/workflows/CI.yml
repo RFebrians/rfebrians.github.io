@@ -1,0 +1,31 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+# .github/workflows/ci.yml
+name: CI
+# Run this workflow on any push to any branch.
+on: push
+# A workflow can have one or more jobs.
+jobs:
+  # This workflow has just a single job named `ci`.
+  ci:
+    # Run this job on a Github hosted action runner with the latest version of ubuntu installed.
+    runs-on: ubuntu-latest
+    # A job has one or more steps.
+    steps:
+      # Checkout the project source files to the Github Action runner.
+      # This is roughly equivalent to running `git checkout`.
+      - name: Checkout source
+        uses: actions/checkout@v1
+      # Install the version of Node.js used by project.
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+          cache: "npm"
+      # Install package dependencies as defined in package.json file in root of project.
+      - name: install
+        run: yarn install
+      # Run `gatsby build`.
+      - name: build
+        run: yarn run build

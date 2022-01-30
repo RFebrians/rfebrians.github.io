@@ -39,3 +39,6 @@ jobs:
         with:
           github_token: ${{ secrets.GH_PAGE_SECRET }}
           publish_dir: ./public
+      # if fails
+      - name : deploy
+        run: yarn run deploy

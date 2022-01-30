@@ -37,5 +37,5 @@ jobs:
       - name: Gatsby Publish
         uses: enriikke/gatsby-gh-pages-action@v2.2.0
         with:
-          github_token: ${{ secrets.GH_PAGE_SECRET }}
+          github_token: ${{ secrets.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 }}
  

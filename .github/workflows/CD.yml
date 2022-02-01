@@ -24,6 +24,9 @@ jobs:
         with:
           node-version: "14"
           cache: "yarn"
+      # EXPERIMENTAL Gatsby Clean for plugin image sharp crashed
+      - name: clean cache
+        run: gatsby clean
       # Install package.json dependencies
       - name: Install
         run: yarn install

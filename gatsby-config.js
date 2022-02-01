@@ -4,9 +4,9 @@ module.exports = {
     siteTitleAlt: `RFebrians - Portfolio`,
     siteHeadline: `RFebrians - Portfolio`,
     siteUrl: `https://rfebrians.github.io`,
-    siteDescription: `A Portfolio is a single page `,
+    siteDescription: `A Portfolio with a single page `,
     siteLanguage: `en`,
-    siteImage: `/portfolio.jpg`,
+    siteImage: `./static/portfolio.jpg`,
     author: `@r`
   },
   plugins: [

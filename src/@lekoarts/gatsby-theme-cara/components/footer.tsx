@@ -17,15 +17,14 @@ const Footer: React.FC = () => {
           a: { color: `text` }
         }}
       >
-        <img width="30" height="30" src="/favicon.ico" alt="Logo" />
         {` `}
-        <Link aria-label="Visit the GitHub repository" sx={{ ml: 2 }} href="https://github.com/RFebrians">
-          Techstack by Gatsby
+        <Link aria-label="Gatsby Framework" sx={{ ml: 2 }} href="https://github.com/gatsbyjs/gatsby">
+          Bootstrapped by Gatsby
         </Link>
         <div sx={{ mx: 1 }}>and</div>
         {` `}
-        <Link aria-label="Link to the theme author's website" href="https://github.com/RFebrians">
-          Cara , LekoArts
+        <Link aria-label="Link to the theme author's website" href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">
+          LekoArts Theme
         </Link>
       </Flex>
     </Box>

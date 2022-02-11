@@ -6,10 +6,6 @@ import Divider from '@lekoarts/gatsby-theme-cara/src/elements/divider'
 import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
 import Content from '@lekoarts/gatsby-theme-cara/src/elements/content'
 import { UpDown, UpDownWide } from '@lekoarts/gatsby-theme-cara/src/styles/animations'
-import HorizontalScroll from 'react-horizontal-scrolling'
-import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu'
-import { LeftArrow, RightArrow } from './arrows'
-import ScrollArea from 'react-scrollbar'
 
 import { iconpos } from '../styles/utils'
 
@@ -43,20 +39,18 @@ const ProjectsResearchA: React.FC<{ offset: number; factor?: number }> = ({ offs
       factor={factor}
     />
     <Content speed={0.4} offset={offset} factor={factor}>
-      <ScrollArea speed={0.8} horizontal={true} vertical={false}>
-        <Inner>
-          <div
-            sx={{
-              display: `grid`,
-              gridGap: [2, 5, 5, 6, 5],
-              gridTemplateColumns: [`1fr`, `1fr`, `auto`, `repeat(2, 1fr)`],
-              h5: { gridColumn: `-1/4`, color: `rosely4 !important` }
-            }}
-          >
-            <ProjectsResearchActivity />
-          </div>
-        </Inner>
-      </ScrollArea>
+      <Inner>
+        <div
+          sx={{
+            display: `grid`,
+            gridGap: [2, 5, 5, 6, 5],
+            gridTemplateColumns: [`1fr`, `1fr`, `auto`, `repeat(2, 1fr)`],
+            h5: { gridColumn: `-1/4`, color: `rosely4 !important` }
+          }}
+        >
+          <ProjectsResearchActivity />
+        </div>
+      </Inner>
     </Content>
     <Divider speed={0.1} offset={offset} factor={factor}>
       <img

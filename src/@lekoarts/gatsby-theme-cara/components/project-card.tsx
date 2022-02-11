@@ -37,7 +37,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ link, title, children, image 
   return (
     <a
       href={link}
-      target="_blank"
+      target="_self"
       rel="noreferrer noopener"
       sx={{
         width: `100%`,

@@ -1,62 +1,117 @@
-## Blog
+# Automated Tasking with Selenium
 
+## Classified Scripting and Testing  .
 
-Hello
-
-
-
-
-
-
+- Objective : Automated Tasking .
+- Method : Recursive and Iterating Function.
 
 
 ---
-> This is a Section Blog . Let's Test our MDX
+## What is Selenium ?
 
-# How to Routing
+Selenium WebDriver is a collection of open source APIs which are used to automate the testing of a web application. 
+Their behaviour is on browser .
+It supports many browsers such as Firefox, Chrome, IE, and Safari.
 
-## Development , Comparison and Troubleshooting
+## What we will test ? 
+Okay so let's get straightforward :
+- an Automated test that will find the titles on Wiki
+- Finding many title based on located element in wiki that will scroll over on pages
 
-- Objective : Efficiency Route and Error Handling .
+## How it works ?
+Selenium is an automated testing based on Webdriver it will crawl , event interaction , wait , etc to located the elements
 
-- Method : routing and exception
+## Method : 
+- Find the title using Xpath (element) 
+- Looping
+- Print
 
-- Lib : react-router
----
-## What is Route in react ? 
-- Route is a Page Component on React . 
-- You can use react-router on React JS
-- And react-navigation on React Native
-
-## Why it used ? 
-React is based on Single Page Application .
- 
-It means the website will be dynamically  require less resource and time to be loaded . 
-
-It's better , than to reload/render everything again like the first time. 
-
----
-
----
-## Why you should avoid bad routing ? 
-
-- The first thing is your App may not work .
-
-even it's , it's possible to run an odd things (a.k.a bug)
-
-- Routing is one of an essential component for react , understanding it more will give some performance like SEO and readability code for developer and machine.
-
-## Route Error Handling
-
-- unfortunately i'm still don't know how to do error handling with react-router , i think it's impossible , just likely the documentation doesn't introduce it , or any API on it .
-
-But you can use error Boundary that provided by React
+## Practice
+Code Expand
+```
+from selenium import webdriver
+from selenium.webdriver.support import expected_conditions
+from selenium.common import exceptions
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.select import Select
+from webdriver_manager.chrome import ChromeDriverManager
+import time
 
 
+options = webdriver.ChromeOptions()
+options.add_argument("--incognito")
+options.add_argument('--disable-gpu')
 
+driver = webdriver.Chrome(executable_path=r"./chromedriver.exe")
+
+
+time.sleep(1)
+driver.get('https://edition.cnn.com/')
+#scroll = driver.find_element_by_tag_name('html')
+
+
+
+#FUNCTION SECTION
+
+name_list = []
+institution_list = []
+address_list = []
+
+
+
+#ITERATE SECTION
+
+i=0
+##you can increase the value to iterate until 999 page
+while i<9:
+    try:
+        beach_balls = driver.find_elements_by_css_selector(".col-12.col-md-8.col-xl-9.hospital-list--result.ng-star-inserted")
+        
+        for ball in beach_balls:
+            time.sleep(2)
+            
+            #name section
+            name = ball.find_element_by_xpath("(//div[@class='personnel-card__name pb-2 py-md-3 py-sm-1'])").text
+           
+
+            #institution section
+            institution = ball.find_element_by_xpath("(//span[@class='personnel-card__location-name'])[1]").text.lstrip('Institution\n')
+            
+            
+            #address section
+            address = ball.find_element_by_xpath("(//div[@class='personnel-card__city'])[1]").text
+            
+            ##
+            name_list.print((name))
+            institution_list.print(institution)
+            address_list.print(address)
+            
+            
+            
+            time.sleep(3)
+            driver.find_element_by_css_selector('.list-inline-item.mx-1.mx-md-2.custom-pagination__next-page').click()
+            i += 1
+            
+            
+            
+    except exceptions.StaleElementReferenceException:
+        pass
+```
+
+
+## And why is it ?
+```
+
+```
+
+## Alternative way
+```
+Yes you can using a class name , ID , css selector ,tag , even a name.  
+
+more on https://selenium-python.readthedocs.io/api.html#locate-elements-by
+```
 # Conclusion
-Perhaps you may notice why we don't use hyperlink instead route ?
 
-The Differences between route and hyperlink is 
-- route don't take too long to load and can be a dynamic website to save some session. 
-- and hyperlink will be re-render up everytime it loaded . 
+Selenium is very fast for automated testing or multi tasking batch . But on the other side it has a limit , such as recaptcha or human auth.

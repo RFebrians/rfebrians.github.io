@@ -10,7 +10,6 @@ import Seo from '@lekoarts/gatsby-theme-cara/src/components/seo'
 import Content from '@lekoarts/gatsby-theme-cara/src/elements/content'
 import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
 
-import Hero from '../@lekoarts/gatsby-theme-cara/components/hero'
 import BlogSite from '../@lekoarts/gatsby-theme-cara/components/blogsite'
 
 const BlogSitePage = () => (

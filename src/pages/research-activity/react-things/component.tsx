@@ -6,16 +6,15 @@ import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
 import Content from '@lekoarts/gatsby-theme-cara/src/elements/content'
 import { UpDown, UpDownWide } from '@lekoarts/gatsby-theme-cara/src/styles/animations'
 
+import { hidden, iconpos } from './utils'
 import BlogMDX from './blog.mdx'
 
 const Component: React.FC<{ offset: number; factor?: number }> = ({ offset, factor = 1 }) => (
-  <div>
-    <Inner>
-      <Content speed={0.4} offset={offset} factor={factor}>
-        <BlogMDX />
-      </Content>
-    </Inner>
-  </div>
+  <Inner>
+    <Content speed={0.4} offset={offset} factor={factor}>
+      <BlogMDX />
+    </Content>
+  </Inner>
 )
 
 export default Component

@@ -10,21 +10,23 @@ import Seo from '@lekoarts/gatsby-theme-cara/src/components/seo'
 import Content from '@lekoarts/gatsby-theme-cara/src/elements/content'
 import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
 
-import Component from './component'
+import BlogSite from '../../../@lekoarts/gatsby-theme-cara/components/blogsite'
 
-const BlogSitePage = () => (
+const ReactThingsPage = () => (
   <Layout>
     <Seo title="BlogSite " />
+
     <Parallax pages={2}>
       <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={0} factor={1}>
         <Inner>
-          <Themed.h1>Welcome to BlogSite</Themed.h1>
-          <Themed.h4>This is a Blog Section </Themed.h4>
-          <Component />
+          <Themed.h1>React Things</Themed.h1>
+          <p> This is a paragraph</p>
+          <li> THis is first list </li>
+          <li> a second list </li>
         </Inner>
       </Content>
     </Parallax>
   </Layout>
 )
 
-export default BlogSitePage
+export default ReactThingsPage

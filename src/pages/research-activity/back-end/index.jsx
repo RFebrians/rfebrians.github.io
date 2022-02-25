@@ -13,11 +13,11 @@ import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
 const BlogSitePage = () => (
   <Layout>
     <Seo title="BlogSite " />
-    <Parallax pages={5}>
+    <Parallax pages={2}>
       <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={0} factor={1}>
         <Inner>
-          <Themed.h1>Welcome to BlogSite</Themed.h1>
-          <Themed.h4>This is a Blog Section </Themed.h4>
+          <Themed.h1>Welcome to Back-end Section</Themed.h1>
+          <Themed.h4>This is a Backend</Themed.h4>
         </Inner>
       </Content>
     </Parallax>

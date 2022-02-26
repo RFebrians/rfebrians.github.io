@@ -9,20 +9,20 @@ import Svg from '@lekoarts/gatsby-theme-cara/src/components/svg'
 import Seo from '@lekoarts/gatsby-theme-cara/src/components/seo'
 import Content from '@lekoarts/gatsby-theme-cara/src/elements/content'
 import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
+import Test from './test'
 
 import BlogSite from '../../../@lekoarts/gatsby-theme-cara/components/blogsite'
 
 const ReactThingsPage = () => (
   <Layout>
-    <Seo title="BlogSite " />
+    <Seo title="React Things " />
 
     <Parallax pages={2}>
       <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={0} factor={1}>
         <Inner>
           <Themed.h1>React Things</Themed.h1>
-          <p> This is a paragraph</p>
-          <li> THis is first list </li>
-          <li> a second list </li>
+          <Themed.h4>This is a React Section </Themed.h4>
+          <Test> </Test>
         </Inner>
       </Content>
     </Parallax>

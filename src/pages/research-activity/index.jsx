@@ -10,18 +10,25 @@ import Seo from '@lekoarts/gatsby-theme-cara/src/components/seo'
 import Content from '@lekoarts/gatsby-theme-cara/src/elements/content'
 import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
 
-const AIPage = () => (
+import ProjectsResearchA from '../../@lekoarts/gatsby-theme-cara/components/projects-res-a'
+
+const ResearchAct = () => (
   <Layout>
-    <Seo title="Artificial Intelegence " />
-    <Parallax pages={2}>
-      <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={0} factor={1}>
-        <Inner>
-          <Themed.h1>An AI Frame</Themed.h1>
-          <Themed.h4>This is an AI Section </Themed.h4>
-        </Inner>
-      </Content>
-    </Parallax>
+    <Seo title="Research Activity " />
+
+    <Inner>
+      <Parallax pages={2}>
+        <Content>
+          <Content>
+            <ProjectsResearchA />
+            <Themed.p>
+              Go back to <Link to="/">homepage</Link>.
+            </Themed.p>
+          </Content>
+        </Content>
+      </Parallax>
+    </Inner>
   </Layout>
 )
 
-export default AIPage
+export default ResearchAct

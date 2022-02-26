@@ -10,9 +10,9 @@ import Seo from '@lekoarts/gatsby-theme-cara/src/components/seo'
 import Content from '@lekoarts/gatsby-theme-cara/src/elements/content'
 import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
 
-const BlogSitePage = () => (
+const BackEndPage = () => (
   <Layout>
-    <Seo title="BlogSite " />
+    <Seo title="BackEnd " />
     <Parallax pages={2}>
       <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={0} factor={1}>
         <Inner>
@@ -24,4 +24,4 @@ const BlogSitePage = () => (
   </Layout>
 )
 
-export default BlogSitePage
+export default BackEndPage

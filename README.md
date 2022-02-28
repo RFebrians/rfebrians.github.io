@@ -6,4 +6,6 @@
 
 > Phase 3 = Blog Paging
 
+> Delta = More Complexity
+
 2022

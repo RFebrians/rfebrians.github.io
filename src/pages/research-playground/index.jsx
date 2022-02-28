@@ -10,21 +10,25 @@ import Seo from '@lekoarts/gatsby-theme-cara/src/components/seo'
 import Content from '@lekoarts/gatsby-theme-cara/src/elements/content'
 import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
 
-const ResearchPlayground = () => (
+import ProjectsResearchP from '../../@lekoarts/gatsby-theme-cara/components/projects-res-play'
+
+const ResearchPlay = () => (
   <Layout>
     <Seo title="Research Playground " />
 
     <Inner>
       <Parallax pages={2}>
         <Content>
-          <Themed.h1> Under Construction </Themed.h1>
-          <Themed.p>
-            Go back to <Link to="/">homepage</Link>.
-          </Themed.p>
+          <Content>
+            <ProjectsResearchP />
+            <Themed.p>
+              Go back to <Link to="/">homepage</Link>.
+            </Themed.p>
+          </Content>
         </Content>
       </Parallax>
     </Inner>
   </Layout>
 )
 
-export default ResearchPlayground
+export default ResearchPlay

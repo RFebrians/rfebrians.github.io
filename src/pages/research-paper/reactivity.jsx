@@ -13,7 +13,7 @@ import Iframe from 'react-iframe'
 
 const ResearchPaper = () => (
   <Layout>
-    <Seo title="Exploration with Remix-run" />
+    <Seo title="React Activity" />
     <Parallax pages={1}>
       <div>
         <Divider speed={0.2} offset={0} factor={1}>
@@ -46,8 +46,8 @@ const ResearchPaper = () => (
         </Divider>
         <Content sx={{ variant: `texts.smaller` }} speed={0.4} offset={0} factor={1}>
           <Inner>
-            <Layout><Themed.h2>Exploration with Remix-run</Themed.h2></Layout>
-            <Themed.p>From here you can read the preview , download or visit the <Link to="/">Repository</Link></Themed.p>
+            <Layout><Themed.h2>Reactivity</Themed.h2></Layout>
+            <Themed.p>From here you can read the preview , download or visit the <Link to="https://github.com/RFebrians/exploration-with-remix">Repository</Link></Themed.p>
             <Iframe src="https://drive.google.com/file/d/1HfX5zH1iGbsrpjIaXpKkdVXRGPcC26HT/preview" width="800" height="600" allow="autoplay"></Iframe>
             <Themed.p>
               Go back to <Link to="/">homepage</Link>.

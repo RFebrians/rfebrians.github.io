@@ -9,16 +9,14 @@ import Svg from '@lekoarts/gatsby-theme-cara/src/components/svg'
 import Seo from '@lekoarts/gatsby-theme-cara/src/components/seo'
 import Content from '@lekoarts/gatsby-theme-cara/src/elements/content'
 import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
-import Test from './test'
 
 import '../../../@lekoarts/gatsby-theme-cara/styles/styles.css'
 
 
-
 const BackEndPage = () => (
   <Layout>
-    <Seo title="React Things " />
-    <Parallax pages={3}>
+    <Seo title="Backend Section " />
+    <Parallax pages={2}>
 
         <Divider speed={0.2} offset={0} factor={1}>
           <UpDown>
@@ -50,12 +48,24 @@ const BackEndPage = () => (
         </Divider>
       <Content sx={{ variant: `texts.smaller` }} speed={0.4} offset={0} factor={1}>
         <Inner>
-        <Themed.h1></Themed.h1>
-          <Themed.h4>This is a Back End Section </Themed.h4>
-        <div class="center">
-          <Test> </Test>
-          </div>
+        <Themed.h3>This is a Back End Section</Themed.h3>
+          <Themed.h4> Description </Themed.h4>
+          <Themed.p>
+              Go to <Link to="../../research-paper/web-fundamental">REST-ful Section</Link>.
+            </Themed.p>
+            <Themed.p>
+              Go to <Link to="../../research-paper/web-fundamental">Data Warehouse</Link>.
+            </Themed.p>
+            <Themed.p>
+              Go to <Link to="../../research-paper/web-fundamental">Selecting your DBRM </Link>.
+            </Themed.p>
+            <Themed.p>
+              Go to <Link to="../../research-paper/web-fundamental">Introducing to Serverless</Link>.
+            </Themed.p>
         </Inner>
+        <Themed.h4>
+              Go back to <Link to="../">Research Activity</Link>.
+            </Themed.h4>
       </Content>
     </Parallax>
   </Layout>

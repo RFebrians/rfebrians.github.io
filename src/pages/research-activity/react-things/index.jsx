@@ -9,8 +9,10 @@ import Svg from '@lekoarts/gatsby-theme-cara/src/components/svg'
 import Seo from '@lekoarts/gatsby-theme-cara/src/components/seo'
 import Content from '@lekoarts/gatsby-theme-cara/src/elements/content'
 import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
-import Test from './test'
+
 import '../../../@lekoarts/gatsby-theme-cara/styles/styles.css'
+
+
 
 const ReactThingsPage = () => (
   <Layout>
@@ -50,31 +52,31 @@ const ReactThingsPage = () => (
         <Themed.h1>React Things</Themed.h1>
           <Themed.h4>This is a React Section </Themed.h4>
           <Themed.p>
-              Go to <Link to="/">Web Fundamental</Link>.
+              Go to <Link to="../../research-paper/web-fundamental">Web Fundamental</Link>.
             </Themed.p>
             <Themed.p>
-              Go to <Link to="/">Reactivity</Link>.
+              Go to <Link to="../../research-paper/reactivity">Reactivity</Link>.
             </Themed.p>
             <Themed.p>
-              Go to <Link to="/">Exploration Remix-run</Link>.
+              Go to <Link to="../../research-paper/exploration-remix-run">Exploration Remix-run</Link>.
             </Themed.p>
             <Themed.p>
-              Go to <Link to="/">React on 15 minutes</Link>.
+              Go to <Link to="../../research-paper/react-15-min">React on 15 minutes</Link>.
             </Themed.p>
             <Themed.p>
-              Go to <Link to="/">JS ES6+ on 15 minutes</Link>.
+              Go to <Link to="../../research-paper/js-es6">JS ES6+ on 15 minutes</Link>.
             </Themed.p>
             <Themed.p>
-              Go to <Link to="/">Redux on 15 minutes</Link>.
+              Go to <Link to="../../research-paper/redux">Redux on 15 minutes</Link>.
             </Themed.p>
             <Themed.p>
-              Go to <Link to="/">Mobile Apps with React Native on 15 minutes</Link>.
+              Go to <Link to="../../research-paper/react-native">Mobile Apps with React Native on 15 minutes</Link>.
             </Themed.p>
             <Themed.p>
-              Go to <Link to="/">JavaScript or TypeScript</Link>.
+              Go to <Link to="../../research-paper/js-or-ts">JavaScript or TypeScript</Link>.
             </Themed.p>
             <Themed.p>
-              Go to <Link to="/">Continous Integration and Continous Deployment</Link>.
+              Go to <Link to="../../research-paper/ci-cd">Continous Integration and Continous Deployment</Link>.
             </Themed.p>
         </Inner>
         <Themed.h4>

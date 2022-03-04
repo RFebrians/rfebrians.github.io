@@ -44,11 +44,11 @@ const ResearchPaper = () => (
           <Svg icon="hexa" width={16} stroke color="icon_darker" left="10%" top="50%" />
           <Svg icon="hexa" width={8} stroke color="icon_darker" left="80%" top="70%" />
         </Divider>
-        <Content sx={{ variant: `texts.smaller` }} speed={0.4} offset={0} factor={1}>
+        <Content speed={0.4} offset={0} factor={1}>
           <Inner>
             <Layout><Themed.h2>Web Fundamental</Themed.h2></Layout>
             <Themed.p>From here you can read the preview , download or visit the <Link to="https://github.com/RFebrians/exploration-with-remix">Repository</Link></Themed.p>
-            <Iframe src="https://drive.google.com/file/d/1HfX5zH1iGbsrpjIaXpKkdVXRGPcC26HT/preview" width="800" height="600" allow="autoplay"></Iframe>
+            <Iframe url="https://drive.google.com/file/d/1HfX5zH1iGbsrpjIaXpKkdVXRGPcC26HT/preview" width="600" height="720" allow="autoplay"></Iframe>
             <Themed.p>
               Go back to <Link to="/">homepage</Link>.
             </Themed.p>

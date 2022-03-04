@@ -17,8 +17,7 @@ import '../../../@lekoarts/gatsby-theme-cara/styles/styles.css'
 const ReactThingsPage = () => (
   <Layout>
     <Seo title="React Things " />
-    <Parallax pages={3}>
-
+    <Parallax pages={1}>
         <Divider speed={0.2} offset={0} factor={1}>
           <UpDown>
             <Svg icon="triangle" hiddenMobile width={48} stroke color="icon_orange" left="10%" top="20%" />
@@ -51,6 +50,7 @@ const ReactThingsPage = () => (
         <Inner>
         <Themed.h1>React Things</Themed.h1>
           <Themed.h4>This is a React Section </Themed.h4>
+          <div className='body'>
           <Themed.p>
               Go to <Link to="../../research-paper/web-fundamental">Web Fundamental</Link>.
             </Themed.p>
@@ -78,10 +78,12 @@ const ReactThingsPage = () => (
             <Themed.p>
               Go to <Link to="../../research-paper/ci-cd">Continous Integration and Continous Deployment</Link>.
             </Themed.p>
+            </div>
         </Inner>
         <Themed.h4>
               Go back to <Link to="../">Research Activity</Link>.
             </Themed.h4>
+            
       </Content>
     </Parallax>
   </Layout>

@@ -14,7 +14,7 @@ import Iframe from 'react-iframe'
 const ResearchPaper = () => (
   <Layout>
     <Seo title="Web Fundamental" />
-    <Parallax pages={1}>
+    <Parallax pages={2}>
       <div>
         <Divider speed={0.2} offset={0} factor={1}>
           <UpDown>

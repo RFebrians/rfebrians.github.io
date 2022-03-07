@@ -14,7 +14,6 @@ import Iframe from 'react-iframe'
 const ResearchPaper = () => (
   <Layout>
     <Seo title="Redux Summary" />
-    <Parallax pages={1}>
       <div>
         <Divider speed={0.2} offset={0} factor={1}>
           <UpDown>
@@ -55,7 +54,6 @@ const ResearchPaper = () => (
           </Inner>
         </Content>
       </div>
-    </Parallax>
   </Layout>
 )
 

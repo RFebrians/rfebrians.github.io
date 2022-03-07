@@ -10,7 +10,7 @@ import Seo from '@lekoarts/gatsby-theme-cara/src/components/seo'
 import Content from '@lekoarts/gatsby-theme-cara/src/elements/content'
 import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
 
-import ProjectsResearchP from '../../@lekoarts/gatsby-theme-cara/components/projects-res-play'
+import ProjectsResearchP from '../../../@lekoarts/gatsby-theme-cara/components/projects-res-play'
 
 const ResearchPlay = () => (
   <Layout>

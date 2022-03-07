@@ -18,14 +18,16 @@ const ResearchPlay = () => (
 
     <Inner>
       <Parallax pages={2}>
+        <Divider>
         <Content>
-          <Content>
+          
             <ProjectsResearchP />
             <Themed.p>
               Go back to <Link to="/">homepage</Link>.
             </Themed.p>
-          </Content>
+          
         </Content>
+        </Divider>
       </Parallax>
     </Inner>
   </Layout>

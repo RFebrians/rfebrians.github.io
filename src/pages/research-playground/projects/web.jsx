@@ -20,7 +20,19 @@ const ResearchPlay = () => (
       <Parallax pages={2}>
         <Content>
           <Content>
-            
+            <Themed.h2>This is a research Playground </Themed.h2>
+            <Themed.h5>This is a subtitile </Themed.h5>
+            <Themed.h6>requirements</Themed.h6>
+            <div>
+            <li>a</li>
+            <li>a</li>
+            <li>a</li>
+            </div>
+            <Themed.h6>objective</Themed.h6>
+            <li>a</li>
+            <li>a</li>
+            <li>a</li>
+            <p>an embed codesandbox</p>
             <Themed.p>
               Go back to <Link to="/">homepage</Link>.
             </Themed.p>

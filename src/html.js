@@ -1,6 +1,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+/* Note for Development 
+ it use to render the change of the environment DOM . 
+ Since Gatsby doesn't have any HTML structure without advanced tweak
+*/
+
 export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>

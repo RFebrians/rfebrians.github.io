@@ -10,11 +10,22 @@ import Seo from '@lekoarts/gatsby-theme-cara/src/components/seo'
 import Content from '@lekoarts/gatsby-theme-cara/src/elements/content'
 import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
 import Iframe from 'react-iframe'
+import { useMediaQuery } from 'react-responsive'
 
-const ResearchPaper = () => (
-  <Layout>
-    <Seo title="Redux Summary" />
-      <div>
+import Footer from '../../@lekoarts/gatsby-theme-cara/components/footer'
+import Field from '../../@lekoarts/gatsby-theme-cara/components/field'
+
+const ResearchPaper = () => {
+  const isDesktopOrLaptop = useMediaQuery({ minWidth: 1224 })
+  const isBigScreen = useMediaQuery({ minWidth: 1824 })
+  const isTabletOrMobile = useMediaQuery({ maxWidth: 1224 })
+  const isPortrait = useMediaQuery({ orientation: 'portrait' })
+  const isRetina = useMediaQuery({ minResolution: '2dppx' })
+
+  return (
+    <Layout>
+      <Seo title="JS Summary" />
+      <Parallax pages={1}>
         <Divider speed={0.2} offset={0} factor={1}>
           <UpDown>
             <Svg icon="triangle" hiddenMobile width={48} stroke color="icon_orange" left="10%" top="20%" />
@@ -43,18 +54,33 @@ const ResearchPaper = () => (
           <Svg icon="hexa" width={16} stroke color="icon_darker" left="10%" top="50%" />
           <Svg icon="hexa" width={8} stroke color="icon_darker" left="80%" top="70%" />
         </Divider>
-        <Content sx={{ variant: `texts.smaller` }} speed={0.4} offset={0} factor={1}>
+        <Field offset= {0} ></Field>
+
+        {/* RWD with Conditional Rendering */}
+        <Content speed={0.4} offset={0} factor={1}>
           <Inner>
-            <Layout><Themed.h2>Redux Summary</Themed.h2></Layout>
-            <Themed.p>From here you can read the preview , download or visit the <Link to="https://github.com/RFebrians/exploration-with-remix">Repository</Link></Themed.p>
-            <Iframe src="https://drive.google.com/file/d/1HfX5zH1iGbsrpjIaXpKkdVXRGPcC26HT/preview" width="800" height="600" allow="autoplay"></Iframe>
+            <Layout>
+              <Themed.h2>Javascript ES6+ Summary</Themed.h2>
+            </Layout>
+            <Themed.p>
+              From here you can read the preview , download or visit the{' '}
+              <Link to="https://github.com/RFebrians/exploration-with-remix">Repository</Link>
+            </Themed.p>
+            {isDesktopOrLaptop && (
+              <Iframe url="https://drive.google.com/file/d/1HfX5zH1iGbsrpjIaXpKkdVXRGPcC26HT/preview" width="500" height="700"></Iframe>
+            )}
+            {isTabletOrMobile && (
+              <Iframe url="https://drive.google.com/file/d/1HfX5zH1iGbsrpjIaXpKkdVXRGPcC26HT/preview" width="400" height="520"></Iframe>
+            )}
             <Themed.p>
               Go back to <Link to="/">homepage</Link>.
             </Themed.p>
           </Inner>
         </Content>
-      </div>
-  </Layout>
-)
+       {/* <Footer></Footer> */}
+      </Parallax>
+    </Layout>
+  )
+}
 
 export default ResearchPaper

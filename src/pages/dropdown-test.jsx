@@ -38,7 +38,7 @@ const App = () => {
         value={drink}
         onChange={handleDrinkChange}
       />
-      <p ><AddModeratorIcon onClick={()=>{alert('clicked')}} href="./"></AddModeratorIcon>We eat {home}!</p>
+      {/* <p ><AddModeratorIcon onClick={()=>{alert('clicked')}} href="./"></AddModeratorIcon>We eat {home}!</p> */}
       <p>We drink {drink}!</p>
     </div>
   );

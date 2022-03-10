@@ -25,7 +25,7 @@ const ResearchPaper = () => {
   return (
     <Layout>
       <Seo title="Explore Remix Run" />
-      <Parallax pages={1}>
+      <Parallax pages={1.5}>
         <Divider speed={0.2} offset={0} factor={1}>
           <UpDown>
             <Svg icon="triangle" hiddenMobile width={48} stroke color="icon_orange" left="10%" top="20%" />

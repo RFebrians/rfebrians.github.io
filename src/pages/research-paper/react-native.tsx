@@ -12,8 +12,11 @@ import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
 import Iframe from 'react-iframe'
 import { useMediaQuery } from 'react-responsive'
 
-import Footer from '../../@lekoarts/gatsby-theme-cara/components/footer'
+
 import Field from '../../@lekoarts/gatsby-theme-cara/components/field'
+import DropDownC from '../../@lekoarts/gatsby-theme-cara/components/dropdown-test'
+
+import '../../@lekoarts/gatsby-theme-cara/styles/styles.css'
 
 const ResearchPaper = () => {
   const isDesktopOrLaptop = useMediaQuery({ minWidth: 1224 })
@@ -25,7 +28,7 @@ const ResearchPaper = () => {
   return (
     <Layout>
       <Seo title="React Native Summary" />
-      <Parallax pages={1}>
+      <Parallax pages={1.5}>
         <Divider speed={0.2} offset={0} factor={1}>
           <UpDown>
             <Svg icon="triangle" hiddenMobile width={48} stroke color="icon_orange" left="10%" top="20%" />
@@ -76,8 +79,11 @@ const ResearchPaper = () => {
               Go back to <Link to="/">homepage</Link>.
             </Themed.p>
           </Inner>
+          <div className={'bottom-icon'}>
+          <DropDownC ></DropDownC>
+          </div>
         </Content>
-       {/* <Footer></Footer> */}
+       {/*<Footer></Footer> */}
       </Parallax>
     </Layout>
   )

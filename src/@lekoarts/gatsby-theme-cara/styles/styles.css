@@ -66,4 +66,13 @@ body {
 .Example__container__document .react-pdf__message {
   padding: 20px;
   color: white;
+
+}
+
+.bottom-icon {
+  padding: 0!important;
+  list-style-type: none!important;
+  position:absolute;
+  bottom:0;
+  right: 0;
 }

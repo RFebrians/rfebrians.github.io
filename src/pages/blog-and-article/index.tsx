@@ -54,7 +54,7 @@ const Blog: React.FC<{Field:'' }> = ({ }) => (
         <Content sx={{ variant: `texts.smaller` }} speed={0.4} offset={0} factor={1}>
           <Inner>
             <Themed.h1>Blog and Article</Themed.h1>
-            <Themed.h4>Please comeback later ^_^ </Themed.h4>
+            <Themed.h4>Thanks for intention. I am also write in other platform </Themed.h4>
             <Write></Write>
             <Themed.p>
               Go back to <Link to="/">homepage</Link>.

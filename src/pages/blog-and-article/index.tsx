@@ -16,11 +16,12 @@ import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
 
 import Write from './write.mdx'
 import Field from '../../@lekoarts/gatsby-theme-cara/components/field'
+import Footer from '../../@lekoarts/gatsby-theme-cara/components/footer'
 
 const Blog: React.FC<{Field:'' }> = ({ }) => (
   <Layout>
     <Seo title="Blog" />
-    <Parallax pages={1}>
+    <Parallax pages={1.5}>
       <div>
         <Divider speed={0.2} offset={0} factor={1}>
           <UpDown>
@@ -54,7 +55,7 @@ const Blog: React.FC<{Field:'' }> = ({ }) => (
         <Content sx={{ variant: `texts.smaller` }} speed={0.4} offset={0} factor={1}>
           <Inner>
             <Themed.h1>Blog and Article</Themed.h1>
-            <Themed.h4>Thanks for intention. I am also write in other platform </Themed.h4>
+            <Themed.h6><i>Thanks for intention. I am also write in another platform</i> </Themed.h6>
             <Write></Write>
             <Themed.p>
               Go back to <Link to="/">homepage</Link>.

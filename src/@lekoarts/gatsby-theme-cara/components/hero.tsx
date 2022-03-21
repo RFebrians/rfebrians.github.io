@@ -180,7 +180,7 @@ const Hero: React.FC<{ offset: number; factor?: number }> = ({ offset, factor = 
               color: 'rosely5',
               fontFamily: 'mono'
             }}
-            strings={['Prototype', 'Repository', 'Research', 'Books', 'Workflow', 'and many more..']}
+            strings={['Project', 'Prototype', 'Journal', 'and something.']}
             typeSpeed={100}
             backSpeed={50}
             backDelay={2000}

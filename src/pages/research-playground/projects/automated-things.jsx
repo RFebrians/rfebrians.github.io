@@ -34,7 +34,7 @@ const AutomatedPlayground = () => (
                 <p className="legend">An Example Website fundamental using HTML , CSS and JS . <Link to="https://github.com/RFebrians/exploration-with-remix"> Repository</Link></p>
               </div>
               <div>
-              <Themed.h3>Webscraping</Themed.h3>
+              <Themed.h3>CI/CD</Themed.h3>
                 <img alt="" src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
                 <p className="legend">An Example Website fundamental using HTML , CSS and JS</p>
               </div>
@@ -44,17 +44,17 @@ const AutomatedPlayground = () => (
                 <p className="legend">Legend 3</p>
               </div>
               <div>
-              <Themed.h3>Unit Testing</Themed.h3>
+              <Themed.h3>Automated Multi Tasking</Themed.h3>
                 <img alt="" src="https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" />
                 <p className="legend">Legend 4</p>
               </div>
               <div>
-              <Themed.h3>CI / CD</Themed.h3>
+              <Themed.h3>Data Mining</Themed.h3>
                 <img alt="" src="https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" />
                 <p className="legend">Legend 4</p>
               </div>
               <div>
-              <Themed.h3>AutoGUI</Themed.h3>
+              <Themed.h3>Data Visualization</Themed.h3>
                 <img alt="" src="https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" />
                 <p className="legend">Legend 4</p>
               </div>

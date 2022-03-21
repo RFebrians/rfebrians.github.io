@@ -29,7 +29,7 @@ const MobilePlayground = () => (
           <div>
             <Carousel className='modal'>
               <div>
-                <Themed.h3>React Native</Themed.h3>
+                <Themed.h3>Introduction to React Native</Themed.h3>
                 <img  alt="" src="https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" />
                 <p className="legend">An Example Website fundamental using HTML , CSS and JS . <Link to="https://github.com/RFebrians/exploration-with-remix"> Repository</Link></p>
               </div>
@@ -44,7 +44,7 @@ const MobilePlayground = () => (
                 <p className="legend">Legend 3</p>
               </div>
               <div>
-              <Themed.h3>E-Commerce , News App</Themed.h3>
+              <Themed.h3>E-Commerce & News App</Themed.h3>
                 <img alt="" src="https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" />
                 <p className="legend">Legend 4</p>
               </div>

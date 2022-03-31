@@ -40,6 +40,7 @@
     "react-helmet": "^6.1.0",
     "react-iframe": "^1.8.0",
     "react-modal": "^3.14.4",
+    "react-parallax-card": "^0.5.7",
     "react-responsive": "^9.0.0-beta.6",
     "react-responsive-carousel": "3.2.22",
     "react-spring": "^9.4.2",

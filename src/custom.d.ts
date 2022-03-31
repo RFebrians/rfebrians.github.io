@@ -11,3 +11,5 @@ declare module '*.jpg' {
   const content: ImageData
   export default content
 }
+
+declare module 'react-parallax-card';

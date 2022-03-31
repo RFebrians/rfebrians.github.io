@@ -9,9 +9,9 @@ import Svg from '@lekoarts/gatsby-theme-cara/src/components/svg'
 import Seo from '@lekoarts/gatsby-theme-cara/src/components/seo'
 import Content from '@lekoarts/gatsby-theme-cara/src/elements/content'
 import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
+import Field from '../../../@lekoarts/gatsby-theme-cara/components/field'
 
 import '../../../@lekoarts/gatsby-theme-cara/styles/styles.css'
-
 
 
 const ReactThingsPage = () => (
@@ -48,6 +48,7 @@ const ReactThingsPage = () => (
         </Divider>
       <Content sx={{ variant: `texts.smaller` }} speed={0.4} offset={0} factor={1}>
         <Inner>
+          
         <Themed.h1>React Things</Themed.h1>
           <Themed.h4>This is a React Section </Themed.h4>
           <div className='body'>
@@ -86,8 +87,8 @@ const ReactThingsPage = () => (
         <Themed.h4>
               Go back to <Link to="../">Research Activity</Link>.
             </Themed.h4>
-            
       </Content>
+      <Field></Field>
     </Parallax>
   </Layout>
 )

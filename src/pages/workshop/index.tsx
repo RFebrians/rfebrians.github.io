@@ -13,6 +13,7 @@ import Svg from '@lekoarts/gatsby-theme-cara/src/components/svg'
 import Seo from '@lekoarts/gatsby-theme-cara/src/components/seo'
 import Content from '@lekoarts/gatsby-theme-cara/src/elements/content'
 import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
+import ParallaxCard from 'react-parallax-card'
 
 import Field from '../../@lekoarts/gatsby-theme-cara/components/field'
 
@@ -55,6 +56,7 @@ const Workshop: React.FC<{Field:'' }> = ({ }) => (
             <Themed.h1>Workshop</Themed.h1>
             <Themed.h3>are under construction</Themed.h3>
             <Themed.h4>Please comeback later ^_^ </Themed.h4>
+           
             <Themed.p>
               Go back to <Link to="/">homepage</Link>.
             </Themed.p>

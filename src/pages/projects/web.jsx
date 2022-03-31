@@ -11,10 +11,11 @@ import Content from '@lekoarts/gatsby-theme-cara/src/elements/content'
 import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
-import '../../../@lekoarts/gatsby-theme-cara/styles/modal.css'
+import '../../@lekoarts/gatsby-theme-cara/styles/modal.css'
 
-import Field from '../../../@lekoarts/gatsby-theme-cara/components/field'
-import Footer from '../../../@lekoarts/gatsby-theme-cara/components/footer'
+import Field from '../../@lekoarts/gatsby-theme-cara/components/field'
+import Footer from '../../@lekoarts/gatsby-theme-cara/components/footer'
+
 
 const Web = () => (
   <Parallax pages={1.5}>
@@ -40,7 +41,7 @@ const Web = () => (
               </div>
               <div>
               <Themed.h3>Hello React</Themed.h3>
-                <img alt="" src="https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" />
+                <img alt="" src="../../../@lekoarts/gatsby-theme-cara/assets/projects/hello-react.png" />
                 <p className="legend">Your first prototoype site using <Link to="https://github.com/RFebrians/hello-react"> Repository</Link> or <Link to="https://codesandbox.io/s/hello-2297-py13q"> Live Playground</Link></p>
               </div>
               <div>

@@ -11,10 +11,10 @@ import Content from '@lekoarts/gatsby-theme-cara/src/elements/content'
 import Inner from '@lekoarts/gatsby-theme-cara/src/elements/inner'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
-import '../../../@lekoarts/gatsby-theme-cara/styles/modal.css'
+import '../../@lekoarts/gatsby-theme-cara/styles/modal.css'
 
-import Field from '../../../@lekoarts/gatsby-theme-cara/components/field'
-import Footer from '../../../@lekoarts/gatsby-theme-cara/components/footer'
+import Field from '../../@lekoarts/gatsby-theme-cara/components/field'
+import Footer from '../../@lekoarts/gatsby-theme-cara/components/footer'
 
 const MobilePlayground = () => (
   <Parallax pages={1.5}>
@@ -54,7 +54,6 @@ const MobilePlayground = () => (
         <Themed.p>
               Go back to <Link to="../../">Research Playground</Link>.
             </Themed.p> 
-        <Footer></Footer>
   </Layout>
   </Parallax>
 )

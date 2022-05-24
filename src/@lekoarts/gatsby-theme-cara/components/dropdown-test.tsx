@@ -1,9 +1,6 @@
 import * as React from "react";
 import { Wrapper, ActivatorButton, DropdownList } from "./styles";
 
-import '../styles/styles.css'
-import '../../../../static/favicon-32x32.png'
-
 interface IDropdownItem {
   id: number;
   url: string;
@@ -18,7 +15,7 @@ interface IProps {
 const dropdownItems = [
   {
     id: 1,
-    url: "myLink",
+    url: "./",
     text: "Home"
   },
   {
@@ -39,7 +36,7 @@ const dropdownItems = [
 ];
 
 const DropdownC = ({
-  activatorText = "Menu :)",
+  activatorText = "Navigation",
   items = dropdownItems
 }: IProps) => {
   const activatorRef = React.useRef<HTMLButtonElement | null>(null);

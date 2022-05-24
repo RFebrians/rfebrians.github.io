@@ -13,3 +13,4 @@ declare module '*.jpg' {
 }
 
 declare module 'react-parallax-card';
+declare module 'react-vertical-timeline-component';

@@ -41,10 +41,10 @@ const theme = merge(tailwind, {
     jamstack: '#F0047F',
     modes: {
       dark: {
-        primary: '#1D2671',
-        text: '#f4dede',
+        primary: '#c7c9d9',
+        text: '#050505',
         heading: '#cacdf7',
-        background: '#27272a',
+        background: '#4d4d4d',
         textMuted: '#909090',
         divider: '#85677b',
         icon_brightest: '#f7caca',

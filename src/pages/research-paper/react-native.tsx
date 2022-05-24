@@ -16,6 +16,7 @@ import { useMediaQuery } from 'react-responsive'
 import Field from '../../@lekoarts/gatsby-theme-cara/components/field'
 import DropDownC from '../../@lekoarts/gatsby-theme-cara/components/dropdown-test'
 
+
 import '../../@lekoarts/gatsby-theme-cara/styles/styles.css'
 
 const ResearchPaper = () => {
@@ -69,6 +70,10 @@ const ResearchPaper = () => {
               From here you can read the preview , download or visit the{' '}
               <Link to="https://github.com/RFebrians/exploration-with-remix">Repository</Link>
             </Themed.p>
+            <div className={'bottom-icon'}>
+            <DropDownC />
+          </div>
+            
             {isDesktopOrLaptop && (
               <Iframe url="https://drive.google.com/file/d/1HfX5zH1iGbsrpjIaXpKkdVXRGPcC26HT/preview" width="500" height="700"></Iframe>
             )}
@@ -79,9 +84,7 @@ const ResearchPaper = () => {
               Go back to <Link to="/">homepage</Link>.
             </Themed.p>
           </Inner>
-          <div className={'bottom-icon'}>
-          <DropDownC ></DropDownC>
-          </div>
+          
         </Content>
        {/*<Footer></Footer> */}
       </Parallax>

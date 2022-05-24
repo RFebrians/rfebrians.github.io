@@ -45,6 +45,7 @@
     "react-responsive-carousel": "3.2.22",
     "react-spring": "^9.4.2",
     "react-typed": "^1.2.0",
+    "react-vertical-timeline-component": "^3.5.2",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {

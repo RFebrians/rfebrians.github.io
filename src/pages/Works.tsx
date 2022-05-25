@@ -1,4 +1,5 @@
 import * as React from 'react'
+import clsx from  'clsx';
 import { Link } from 'gatsby'
 import { Parallax } from '@react-spring/parallax'
 import { Themed } from 'theme-ui'
@@ -21,7 +22,7 @@ export default function App() {
     <h1 className='Example-header'><Link to="../">Works</Link> </h1> 
       <VerticalTimeline>
   <VerticalTimelineElement
-    className="vertical-timeline-element--work"
+    className={ clsx("vertical-timeline-element--work" , "tilt" )}
     contentStyle={{ background: 'rgb(77, 53, 130)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(77, 53, 130)' }}
     date="May 2022"
@@ -43,7 +44,7 @@ export default function App() {
       />
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--work"
+    className={ clsx("vertical-timeline-element--work" , "tilt" )}
     date="March 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
@@ -55,7 +56,7 @@ Purposed to created an Application more interactive with human dailies .
 Featured Fingerprint Auth , Localstorage and AI Toolkit .    </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--work"
+    className={ clsx("vertical-timeline-element--work" , "tilt" )}
     date="April 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
@@ -68,23 +69,23 @@ It may have a variety engine and option that you can customize.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--work"
+    className={ clsx("vertical-timeline-element--work" , "tilt" )}
     date="February 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">Artefact</h3>
-    <h4 className="vertical-timeline-element-subtitle"><Link to="https://remix-cloudflare-workers.metreat3-22.workers.dev">Cloudflare</Link>, Remix.run</h4>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="https://artefact.magenta.workers.dev/">Cloudflare</Link>, Remix.run</h4>
     <p>
     A Fullstack Web Application that created using Remix.run that connect on KV Workers as a Backend .
 It purposed to created a note and share with other using billboard .    </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--education"
+    className={clsx("vertical-timeline-element--education" , "tilt" )}
     date="December 2021"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">AI Assistant</h3>
-    <h4 className="vertical-timeline-element-subtitle">GitHub , Python </h4>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/AI-Assistant">GitHub</Link> , Python </h4>
     <p>
     A Python Application that mimic an Artificial Intelegence using Voice Recognition and Conditional Statement Object .
 It run wells on linux based kernel that can be recongized on speech command . 
@@ -92,7 +93,7 @@ It open , do and search any corresponding application . | Inspired by JARVIS
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--education"
+    className={clsx("vertical-timeline-element--education" , "tilt" )}
     date="November 2021"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   >
@@ -104,7 +105,7 @@ It has a SEO Optimization using React-Helmet .
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--education"
+    className={clsx("vertical-timeline-element--education" , "tilt" )}
     date="November 2021"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   >
@@ -115,7 +116,7 @@ It has a SEO Optimization using React-Helmet .
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--education"
+    className={clsx("vertical-timeline-element--education" , "tilt" )}
     date="November 2021"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   >
@@ -127,7 +128,7 @@ This API will be used on React Search Engine .
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--education"
+    className={clsx("vertical-timeline-element--education" , "tilt" )}
     date="October 2021"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   >
@@ -138,7 +139,7 @@ This API will be used on React Search Engine .
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--education"
+    className={clsx("vertical-timeline-element--education" , "tilt" )}
     date="September 2021"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   >
@@ -149,7 +150,7 @@ This API will be used on React Search Engine .
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--education"
+    className={clsx("vertical-timeline-element--education" , "tilt" )}
     date="August 2021"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   >
@@ -160,7 +161,7 @@ This API will be used on React Search Engine .
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--education"
+    className={clsx("vertical-timeline-element--education" , "tilt" )}
     date="June 2021"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   >
@@ -171,7 +172,7 @@ This API will be used on React Search Engine .
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--education"
+    className={clsx("vertical-timeline-element--education" , "tilt" )}
     date="- 2020"
     iconStyle={{ background: 'rgb(255, 102, 102)', color: '#fff' }}
   >
@@ -182,14 +183,14 @@ This API will be used on React Search Engine .
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    className="vertical-timeline-element--education"
+    className={clsx("vertical-timeline-element--education" , "tilt" )}
     date="2018 - "
     iconStyle={{ background: 'rgb(51, 153, 102)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">Aikido </h3>
     <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/simple-node.express-backend">Archive</Link> , Journal</h4>
     <p>
-      Corresponding Project History of Aikido , Technique Aikido , A Visual Story about Aikido
+      Corresponding Project History of Aikido , Technique Aikido , And Visual Story about Aikido
     </p>
   </VerticalTimelineElement>
 </VerticalTimeline>

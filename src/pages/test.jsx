@@ -18,7 +18,7 @@ import 'react-vertical-timeline-component/style.min.css';
 export default function App() {
   return (
     <div className="body">
-    <h1 className='Example-header'><Link to="../">Works</Link> </h1> 
+    <h1 className='Example-header'>Works</h1> 
       <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"

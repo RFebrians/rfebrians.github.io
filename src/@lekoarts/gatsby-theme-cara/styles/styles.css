@@ -8,7 +8,9 @@
     }
 body {
   margin: 0;
-  background-color: #525659;
+  background: #A770EF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: Segoe UI, Tahoma, sans-serif;
 }
 
@@ -75,6 +77,14 @@ body {
   position:absolute;
   top:-2;
   right: 0;
+}
+
+.Example-header {
+  background-color: #323639;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  opacity:0.5;
+  padding: 20px;
+  color: white;
 }
 
 .top-background {

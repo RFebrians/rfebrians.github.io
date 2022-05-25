@@ -4,7 +4,7 @@ module.exports = {
     siteTitleAlt: `RFebrians - Portfolio`,
     siteHeadline: `RFebrians - Portfolio`,
     siteUrl: `https://rfebrians.github.io`,
-    siteDescription: `Portfolio with a single page `,
+    siteDescription: `Rizki Febriansyah Personal Portfolio`,
     siteLanguage: `en`,
     siteImage: `/portfolio.jpg`,
     author: `@r`

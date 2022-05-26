@@ -35,11 +35,7 @@ export default function App() {
     Reactivity adalah Jurnal Ilmiah yang berfokus pada React yang ditujukan sebagai pengenalan , pembuktian dan metode Common case dalam membangun Web Application dalam Bahasa Indonesia .
     </p>
     <img 
-      src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=140"
-      alt="img"
-      />
-      <img 
-      src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=140"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/100px-React-icon.svg.png"
       alt="img"
       />
   </VerticalTimelineElement>
@@ -73,7 +69,7 @@ It may have a variety engine and option that you can customize.
     date="February 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
-    <h3 className="vertical-timeline-element-title">Artefact</h3>
+    <h3 className="vertical-timeline-element-title">Artefact | Research Adventure </h3>
     <h4 className="vertical-timeline-element-subtitle"><Link to="https://artefact.magenta.workers.dev/">Cloudflare</Link>, Remix.run</h4>
     <p>
     A Fullstack Web Application that created using Remix.run that connect on KV Workers as a Backend .
@@ -133,7 +129,7 @@ This API will be used on React Search Engine .
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">React Search Engine</h3>
-    <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/simple-node.express-backend">GitHub Page</Link> , React</h4>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/search-engine-react">GitHub </Link> , React</h4>
     <p>
     A React Application that search the Schedule . It using "Databases Demo" as API resources 
     </p>
@@ -144,7 +140,7 @@ This API will be used on React Search Engine .
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">Automation Testing </h3>
-    <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/simple-node.express-backend">Kaggle</Link> , Jupyter Notebook</h4>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/experimental-python-automation-and-ai">GitHub</Link> , Jupyter Notebook</h4>
     <p>
       An Automated Testing using Python and Selenium Framework to make a subset of task .
     </p>
@@ -155,7 +151,7 @@ This API will be used on React Search Engine .
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">React Native News | Diary </h3>
-    <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/simple-node.express-backend">News</Link> | <Link to="https://github.com/RFebrians/simple-node.express-backend">Diary</Link>, React Native</h4>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="https://snack.expo.dev/@zegveld/delicious-pretzels">Diary</Link>, React Native</h4>
     <p>
       Assignment Project using React Native that has a Webview , Route and Fetch using Hooks
     </p>
@@ -166,18 +162,29 @@ This API will be used on React Search Engine .
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">Market App </h3>
-    <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/simple-node.express-backend">GitHub</Link> , React Native</h4>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="#">GitHub</Link> , React Native</h4>
     <p>
-      The Very First Team Project
+      The Very First Team Project , contain UI and Routing
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className={clsx("vertical-timeline-element--education" , "tilt" )}
-    date="- 2020"
+    date="June 2021"
+    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+  >
+    <h3 className="vertical-timeline-element-title">Wordpress </h3>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="http://www.al-halimiyah.com/">Al-Halimiyah Islamic School</Link> , Wordpress</h4>
+    <p>
+      Web Development using Wordpress CMS and MySql on Website School
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className={clsx("vertical-timeline-element--education" , "tilt" )}
+    date="- 2019"
     iconStyle={{ background: 'rgb(255, 102, 102)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">Earlier Years </h3>
-    <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/simple-node.express-backend">GitHub</Link> , Jupyter Notebook</h4>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/object-detection-playground">GitHub</Link> , Jupyter Notebook</h4>
     <p>
       Corresponding Project Yolo V4 , Detectron , CRAFT , AI Game 
     </p>
@@ -188,7 +195,7 @@ This API will be used on React Search Engine .
     iconStyle={{ background: 'rgb(51, 153, 102)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">Aikido </h3>
-    <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/simple-node.express-backend">Archive</Link> , Journal</h4>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="https://drive.google.com/drive/folders/16HUd1JB4E1YbGe9JT0hzUVvK8oVXxv14">Archive</Link> , Journal</h4>
     <p>
       Corresponding Project History of Aikido , Technique Aikido , And Visual Story about Aikido
     </p>

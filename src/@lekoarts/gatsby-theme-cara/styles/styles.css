@@ -98,5 +98,5 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
   transition: all .5s ease-in-out;
 }
 .tilt:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }

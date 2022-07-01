@@ -19,12 +19,12 @@ const Footer: React.FC = () => {
       >
         {` `}
         <Link aria-label="Gatsby Framework" sx={{ ml: 2 }} href="https://github.com/gatsbyjs/gatsby">
-          Bootstrapped by Gatsby
+          Created using React & Gatsby
         </Link>
         <div sx={{ mx: 1 }}>and</div>
         {` `}
-        <Link aria-label="Link to the theme author's website" href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">
-          LekoArts Theme
+        <Link aria-label="Link to the author's website" href="https://github.com/RFebrians">
+        ©2022 
         </Link>
       </Flex>
     </Box>

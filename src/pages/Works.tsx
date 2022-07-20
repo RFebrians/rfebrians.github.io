@@ -19,13 +19,56 @@ import 'react-vertical-timeline-component/style.min.css';
 export default function App() {
   return (
     <div className="body">
-    <h1 className='Example-header'><Link to="../">Works</Link> </h1> 
-      <VerticalTimeline>
+    <h1 className='Example-header'><Link to="../">Works</Link> </h1>
+    
+    <VerticalTimelineElement
+    className={ clsx("vertical-timeline-element--work" , "tilt" )}
+    contentStyle={{ background: 'rgb(77, 53, 130)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(77, 53, 130)' }}
+    date="Jul 2022"
+    iconStyle={{ background: 'rgb(107, 65, 204)', color: '#fff' }}
+    
+  >
+    <h3 className="vertical-timeline-element-title">Psychology - Suicidal Prediction | Machine Learning</h3>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/Augmented-Scaling-Management">Heroku</Link> , Streamlit</h4>
+    <p>
+    Created to take a prevention based on Psychology thought 
+    </p>
+  </VerticalTimelineElement> 
   <VerticalTimelineElement
     className={ clsx("vertical-timeline-element--work" , "tilt" )}
     contentStyle={{ background: 'rgb(77, 53, 130)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(77, 53, 130)' }}
+    date="Jun 2022"
+    iconStyle={{ background: 'rgb(107, 65, 204)', color: '#fff' }}
+    
+  >
+    <h3 className="vertical-timeline-element-title">Medical Apps</h3>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="https://gitlab.com/RFebrians/medical-apps">Microservice</Link> , React | React Native</h4>
+    <p>
+    Open Source version of Medical Apps
+    </p>
+  </VerticalTimelineElement> 
+      <VerticalTimeline>
+        <VerticalTimelineElement
+    className={ clsx("vertical-timeline-element--work" , "tilt" )}
+    contentStyle={{ background: 'rgb(77, 53, 130)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(77, 53, 130)' }}
     date="May 2022"
+    iconStyle={{ background: 'rgb(107, 65, 204)', color: '#fff' }}
+    
+  >
+    <h3 className="vertical-timeline-element-title">Augmented Scaling Management</h3>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/Augmented-Scaling-Management">GitHub</Link> , React Native</h4>
+    <p>
+    Created to focus management expense income/out with easy scaling 
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className={ clsx("vertical-timeline-element--work" , "tilt" )}
+    contentStyle={{ background: 'rgb(77, 53, 130)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(77, 53, 130)' }}
+    date=" 2022"
     iconStyle={{ background: 'rgb(107, 65, 204)', color: '#fff' }}
     
   >

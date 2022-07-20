@@ -20,8 +20,8 @@ export default function App() {
   return (
     <div className="body">
     <h1 className='Example-header'><Link to="../">Works</Link> </h1>
-    
-    <VerticalTimelineElement
+      <VerticalTimeline>
+      <VerticalTimelineElement
     className={ clsx("vertical-timeline-element--work" , "tilt" )}
     contentStyle={{ background: 'rgb(77, 53, 130)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(77, 53, 130)' }}
@@ -49,7 +49,6 @@ export default function App() {
     Open Source version of Medical Apps
     </p>
   </VerticalTimelineElement> 
-      <VerticalTimeline>
         <VerticalTimelineElement
     className={ clsx("vertical-timeline-element--work" , "tilt" )}
     contentStyle={{ background: 'rgb(77, 53, 130)', color: '#fff' }}

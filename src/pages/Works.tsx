@@ -23,18 +23,33 @@ export default function App() {
       <VerticalTimeline>
       <VerticalTimelineElement
     className={ clsx("vertical-timeline-element--work" , "tilt" )}
-    contentStyle={{ background: 'rgb(77, 53, 130)', color: '#fff' }}
+    contentStyle={{ background: 'rgb(41, 50, 143)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(77, 53, 130)' }}
     date="Jul 2022"
     iconStyle={{ background: 'rgb(107, 65, 204)', color: '#fff' }}
     
   >
     <h3 className="vertical-timeline-element-title">Psychology - Suicidal Prediction | Machine Learning</h3>
-    <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/Augmented-Scaling-Management">Heroku</Link> , Streamlit</h4>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="https://psy-augmented.herokuapp.com/">Heroku</Link> , Streamlit</h4>
     <p>
-    Created to take a prevention based on Psychology thought 
+    Correlation prevention Psychology thought based on technology used
     </p>
-  </VerticalTimelineElement> 
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className={ clsx("vertical-timeline-element--work" , "tilt" )}
+    contentStyle={{ background: 'rgb(77, 53, 130)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(77, 53, 130)' }}
+    date="Jun 2022"
+    iconStyle={{ background: 'rgb(107, 65, 204)', color: '#fff' }}
+    
+  >
+    <h3 className="vertical-timeline-element-title">Controlable Apps </h3>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/Controlable-Apps">GitHub</Link> , Raspberry Pi | IoT</h4>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="https://drive.google.com/file/d/1TexNlqsRMJYsg-GR-Mo9pc3STnAhOeIl/view?usp=sharing">Institute Technology of Budi Utomo</Link> , Paper Research</h4>
+    <p>
+    Thesis of Internet of Things using Raspberry Pi based on Voice Driven like Google Assistant or Alexa
+    </p>
+  </VerticalTimelineElement>  
   <VerticalTimelineElement
     className={ clsx("vertical-timeline-element--work" , "tilt" )}
     contentStyle={{ background: 'rgb(77, 53, 130)', color: '#fff' }}
@@ -181,10 +196,10 @@ This API will be used on React Search Engine .
     date="September 2021"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   >
-    <h3 className="vertical-timeline-element-title">Automation Testing </h3>
+    <h3 className="vertical-timeline-element-title">Automation Scripting </h3>
     <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/experimental-python-automation-and-ai">GitHub</Link> , Jupyter Notebook</h4>
     <p>
-      An Automated Testing using Python and Selenium Framework to make a subset of task .
+      Battle ready testing using Python and Selenium Framework to make a subset of task .
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -226,7 +241,7 @@ This API will be used on React Search Engine .
     iconStyle={{ background: 'rgb(255, 102, 102)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">Earlier Years </h3>
-    <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/object-detection-playground">GitHub</Link> , Jupyter Notebook</h4>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="https://github.com/RFebrians/object-detection-playground">GitHub</Link> , Jupyter Notebook - Python</h4>
     <p>
       Corresponding Project Yolo V4 , Detectron , CRAFT , AI Game 
     </p>

@@ -142,7 +142,7 @@ const Hero: React.FC<{ offset: number; factor?: number }> = ({ offset, factor = 
               borderRadius: 5
             }}
           >
-            Welcome !
+            Welcome ! Test
           </h1>
           <h2
             sx={{

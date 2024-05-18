@@ -21,6 +21,22 @@ export default function App() {
     <div className="body">
     <h1 className='Example-header'><Link to="../">Works</Link> </h1>
       <VerticalTimeline>
+        
+        <VerticalTimelineElement
+    className={ clsx("vertical-timeline-element--work" , "tilt" )}
+    contentStyle={{ background: 'rgb(41, 50, 143)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(77, 53, 130)' }}
+    date="Sep 2022"
+    iconStyle={{ background: 'rgb(107, 65, 204)', color: '#fff' }}
+    
+  >
+    <h3 className="vertical-timeline-element-title">Landing Page - BRID Dojo Aikido</h3>
+    <h4 className="vertical-timeline-element-subtitle"><Link to="https://aikido-front.vercel.app/">Demo </Link> , Banner</h4>
+    <p>
+    Landing Page for BRID Aikido Sponsor Banner
+    </p>
+  </VerticalTimelineElement>
+        
       <VerticalTimelineElement
     className={ clsx("vertical-timeline-element--work" , "tilt" )}
     contentStyle={{ background: 'rgb(41, 50, 143)', color: '#fff' }}

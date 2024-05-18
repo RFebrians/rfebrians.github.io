@@ -33,7 +33,7 @@ export default function App() {
     <h3 className="vertical-timeline-element-title">Landing Page - BRID Dojo Aikido</h3>
     <h4 className="vertical-timeline-element-subtitle"><Link to="https://aikido-front.vercel.app/">Demo </Link> , Banner</h4>
     <p>
-    Landing Page for BRID Aikido Sponsor Banner
+    Landing Page for BRID Aikido Sponsor Banner 
     </p>
   </VerticalTimelineElement>
         
